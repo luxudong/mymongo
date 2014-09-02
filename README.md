@@ -195,6 +195,7 @@
     LIBRARY_NAME表示当前访问的图书馆的name.
     LIBRARY_ID表示当前访问的图书馆的id.
 
+    测试github是否生效
 
 
 ## 简介
