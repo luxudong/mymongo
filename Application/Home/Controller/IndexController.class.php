@@ -15,6 +15,7 @@ class IndexController extends Controller {
 //        $this->username = $temp;
 
 
+
         $model = D("User");
 
         $res = $model->select();
