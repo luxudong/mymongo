@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddc8461e-26f6-4e05-aa71-80ad0138525c" name="Default" comment="" />
+    <list default="true" id="ddc8461e-26f6-4e05-aa71-80ad0138525c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="MyMongoDB.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +29,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="29" selection-start="1823" selection-end="1823" vertical-scroll-proportion="-0.029139074" vertical-offset="1848" max-vertical-offset="5302">
+            <state line="197" column="20" selection-start="4159" selection-end="4159" vertical-scroll-proportion="0.47826087" vertical-offset="4114" max-vertical-offset="5324">
               <folding />
             </state>
           </provider>
@@ -43,6 +46,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="lxd" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -475,7 +483,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SiYuan" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -543,12 +551,22 @@
       <created>1409480060739</created>
       <updated>1409480060739</updated>
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <created>1409624011700</created>
+      <updated>1409624011700</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test github">
+      <created>1409624070816</created>
+      <updated>1409624070816</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="382" y="47" width="1408" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -557,7 +575,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25333333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3239951" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886723" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32886723" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32886723" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -581,11 +599,26 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="test commit" />
+    <MESSAGE value="test github" />
+    <option name="LAST_COMMIT_MESSAGE" value="test github" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="4" />
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MyMongoDB" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MyMongoDB" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -685,11 +718,6 @@
         <state line="2" column="10" selection-start="65" selection-end="65" vertical-scroll-proportion="0.093418255" vertical-offset="0" max-vertical-offset="471" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="-0.09606987" vertical-offset="396" max-vertical-offset="990" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Template/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="7" selection-start="284" selection-end="284" vertical-scroll-proportion="0.5801217" vertical-offset="0" max-vertical-offset="493" />
@@ -697,12 +725,16 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mongo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="7" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.36666667" vertical-offset="396" max-vertical-offset="47124" />
+        <state line="32" column="7" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.36666667" vertical-offset="396" max-vertical-offset="47124">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Model/MongoModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="29" selection-start="3933" selection-end="3938" vertical-scroll-proportion="1.1020833" vertical-offset="2133" max-vertical-offset="7546" />
+        <state line="129" column="29" selection-start="3933" selection-end="3938" vertical-scroll-proportion="1.1020833" vertical-offset="2133" max-vertical-offset="7546">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Db/Driver/Mongo.class.php">
@@ -744,9 +776,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.14505495" vertical-offset="308" max-vertical-offset="1012">
+          <folding>
+            <element signature="e#33#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="29" selection-start="1823" selection-end="1823" vertical-scroll-proportion="-0.029139074" vertical-offset="1848" max-vertical-offset="5302">
+        <state line="197" column="20" selection-start="4159" selection-end="4159" vertical-scroll-proportion="0.47826087" vertical-offset="4114" max-vertical-offset="5324">
           <folding />
         </state>
       </provider>
