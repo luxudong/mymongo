@@ -1,4 +1,6 @@
 <extend name="Template:template"/>
 <block name="body">
-    <h1>首页</h1>
+    <volist name="list" id="vo">
+        <img src="{$vo}">
+    </volist>
 </block>

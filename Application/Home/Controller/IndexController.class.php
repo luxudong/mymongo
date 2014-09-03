@@ -1,6 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+use Think\Image;
 use Think\Model\MongoModel;
 use Think\Storage\Driver\File;
 
@@ -21,21 +22,29 @@ class IndexController extends Controller {
         $res = $model->select();
 
 
-        $res1= new \MongoClient("mongodb://localhost:27017");
-        $gridfs = $res1->selectDB('test')->getGridFS();
-        $id = $gridfs->storeFile('C:\\Users\\lxd\\Downloads\\open.png');
-        $gridfsFile = $gridfs->get($id);
-        var_dump($gridfsFile->file);
+//        $res1= new \MongoClient("mongodb://localhost:27017");
+//        $gridfs = $res1->selectDB('test')->getGridFS();
+//        $id = $gridfs->storeFile('C:\\Users\\lxd\\Downloads\\open.png');
+//        $gridfsFile = $gridfs->get($id);
+//        var_dump($gridfsFile->file);
+//        pt($gridfsFile);
+
+        //pt($res);
 
 
-//        $gridFS = new MongoDB();
-//        $gridFS->storeFile("foo.txt", array("metadata" => array("date" => new MongoDate())));;
-//        $res1 = $model->delete($where['_id']="54032335114831b35faa517e");
-//        pt($res1);
-        pt($res);
+        $files = D("File");
+        $result = $files->select();
+
+        $binarray = array();
+        foreach($result as $r){
+            pt($r["data"]->bin);
+            $binarray[]= $r['data']->bin;
+        }
+
+        //pt($result);
         die();
 
-
+        $this->list=$binarray;
         $this->display();
     }
 }
