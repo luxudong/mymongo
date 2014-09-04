@@ -6,7 +6,3 @@
  * Time: 下午8:43
  */
 
-function pt($array){
-    echo "<pre>";
-    print_r($array);
-}
