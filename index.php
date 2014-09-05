@@ -11,10 +11,10 @@
 
 // 应用入口文件
 
-require_once("./Application/Common/Init/init.php");
+require_once("./Common/Init/init.php");
 
 // 定义应用目录
-define('APP_PATH','./Application/');
+define('APP_PATH','./');
 
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';

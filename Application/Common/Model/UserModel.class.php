@@ -6,7 +6,7 @@
  * Time: 下午6:31
  */
 
-namespace Common\Model;
+namespace Application\Common\Model;
 use Think\Model\MongoModel;
 
 class UserModel extends MongoModel{

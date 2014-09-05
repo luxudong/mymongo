@@ -1,10 +1,9 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-use Think\Image;
-use Think\Model\MongoModel;
-use Think\Storage\Driver\File;
+
 use \Application\Common\Model;
+
 class IndexController extends Controller {
     public function index(){
 
@@ -52,10 +51,16 @@ class IndexController extends Controller {
         */
 
         $name = MODULE_NAME;
+        //$libraryDD = new Model\LibraryModel();
         $libraryDB = D("Library");
+
+//        $bookDB = D("Book");
+//        $res = $bookDB->getAllBooks();
+
+
         $res = $libraryDB->getLibraries();
 
-        pt($res);
+        $this->display();
     }
 
 

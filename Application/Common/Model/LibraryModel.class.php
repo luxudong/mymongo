@@ -6,9 +6,7 @@
  * Time: 下午7:44
  */
 
-namespace Application\Common\Model;
-
-
+namespace Common\Model;
 use Think\Model;
 
 class LibraryModel extends Model{
